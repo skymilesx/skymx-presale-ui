@@ -3,10 +3,16 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "@nomicfoundation/hardhat-verify": "^2.0.13",
-    "hardhat": "^2.23.0"
+    "hardhat": "^2.23.0",
+    "vite": "^6.3.2"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.9.3",
     "ethers": "^6.13.5"
   }
+}
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
 }
