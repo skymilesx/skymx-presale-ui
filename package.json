@@ -1,5 +1,10 @@
 {
   "name": "hardhat-project",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "@nomicfoundation/hardhat-verify": "^2.0.13",
@@ -10,9 +15,4 @@
     "@openzeppelin/contracts": "^4.9.3",
     "ethers": "^6.13.5"
   }
-}
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview"
 }
